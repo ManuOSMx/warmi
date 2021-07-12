@@ -1,2 +1,3 @@
 var edith1 = document.getElementById('editar');
-edith1.innerHTML = "¿Como estan en Warmi?";
+var userName = "Manu";
+edith1.innerHTML = "\u00BFComo estan en Warmi? Los saluda " + userName;
